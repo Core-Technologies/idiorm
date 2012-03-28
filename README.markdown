@@ -102,7 +102,7 @@ To find a single record by ID, you can pass the ID directly to the `find_one` me
 
 #### Multiple records ####
 
-Any method chain that ends in `find_many()` will return an *array* of ORM class instances, one for each row matched by your query. If no rows were found, an empty array will be returned.
+Any method chain that ends in `find_many()` will return an *array* of ORM class instances, one for each row matched by your query. If no rows were found, an empty array will be returned. 'find_many()', has an optional boolean parameter that causes the return of an array.
 
 To find all records in the table:
 
